@@ -1,0 +1,4 @@
+{
+  "foo": "bar",
+  "loc_key_presses": "//*[@href='/key_presses']"
+}

@@ -1,0 +1,12 @@
+import os
+
+test_folder = "C:\\PyCharm\\example-test-framework\\tests"
+driver = "Firefox"
+base_url = "http://the-internet.herokuapp.com"
+loc_path = "C:\\PyCharm\\example-test-framework\\locators.hjson"
+
+
+command_line = "py.test.exe {0} --driver {1} --base-url {2} --variables {3}".format(
+                test_folder, driver, base_url, loc_path)
+
+os.system(command_line)

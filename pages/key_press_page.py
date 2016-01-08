@@ -7,8 +7,8 @@ class KeyPressPage(Page):
     _loc_page_title = (By.XPATH, "//*[@id='content']/div/h3")
     _loc_page_result = (By.XPATH, "//*[@id='result']")
 
-    def type(self, key):
-        """ key keypress to be sent """
+    def send_a_key(self, key):
+        """Send a key to the web page."""
         self.find_element(self._loc_page_title).send_keys(key)
 
     @property

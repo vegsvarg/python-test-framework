@@ -5,5 +5,5 @@ def test_key_q(main_page):
     """Tests Key Press Page for the key press: Q"""
     main_page.open()
     key_page = main_page.open_key_presses_page()
-    key_page.type("q")
+    key_page.send_a_key("q")
     assert key_page.result == "You entered: Q"

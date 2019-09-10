@@ -3,7 +3,7 @@ import os
 test_folder = "/Users/jarovit/PycharmProjects/python-test-framework"
 driver = "Firefox"
 base_url = "http://the-internet.herokuapp.com"
-loc_path = "C:\\PyCharm\\example-test-framework\\locators.hjson"
+loc_path = "/Users/jarovit/PycharmProjects/python-test-framework"
 
 
 command_line = "py.test.exe {0} --driver {1} --base-url {2} --variables {3}".format(

@@ -1,6 +1,6 @@
 import os
 
-test_folder = "C:\\PyCharm\\example-test-framework\\tests"
+test_folder = "/Users/jarovit/PycharmProjects/python-test-framework"
 driver = "Firefox"
 base_url = "http://the-internet.herokuapp.com"
 loc_path = "C:\\PyCharm\\example-test-framework\\locators.hjson"
